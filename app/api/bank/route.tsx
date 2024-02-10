@@ -13,6 +13,7 @@ export async function GET() {
     } catch (err) {
         return NextResponse.json({ err })
     }
+    console.log(accounts.rows)
 
     return NextResponse.json({ data: accounts.rows })
 
