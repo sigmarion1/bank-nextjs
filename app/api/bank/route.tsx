@@ -6,8 +6,6 @@ export const dynamic = 'force-dynamic';
 
 export async function GET() {
 
-    // const client = await db.connect()
-
     let accounts;
 
     try {

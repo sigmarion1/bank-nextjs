@@ -10,7 +10,7 @@ export default function useAccount() {
     const [accounts, setAccounts] = useState<Array<Account>>([]);
 
     useEffect(() => {
-        fetch("/api/bank", { cache: "no-store" })
+        fetch("/api/bank")
             .then((res) => res.json())
             .then((data) => setAccounts(data.data));
     }, []);
