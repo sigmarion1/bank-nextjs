@@ -41,7 +41,7 @@ export default function CardWithIllustration() {
                         <StatLabel>현재 금액</StatLabel>
                         <StatNumber
                             fontFamily={'heading'}
-                            fontSize={'6xl'}>226,000원</StatNumber>
+                            fontSize={'6xl'}>226,067원</StatNumber>
                     </Stat>
                 </Stack>
                 <Stack align={'center'} spacing={4}>
