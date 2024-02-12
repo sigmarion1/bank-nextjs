@@ -6,15 +6,15 @@ export const dynamic = 'force-dynamic';
 
 export async function GET() {
 
-    let accounts;
+    let account;
 
     try {
-        accounts = await sql`SELECT * from bank.accounts;`;
+        account = await sql`SELECT * from bank.accounts where account_id=1;`;
     } catch (err) {
         return NextResponse.json({ err })
     }
-    console.log(accounts.rows)
+    // console.log(account)
 
-    return NextResponse.json({ data: accounts.rows })
+    return NextResponse.json({ data: account.rows[0] })
 
 }
