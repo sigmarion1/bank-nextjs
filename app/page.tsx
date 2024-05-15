@@ -67,7 +67,7 @@ export default function BankPage() {
                 </Stack>
                 <Stack align={"center"} spacing={4}>
                     <Text fontSize={"lg"} color={"gray.500"}>
-                        모이면 모일수록 돈이 늘어나는 하임이의 은행
+                        모이면 모일수록 돈이 늘어나는 하임뱅크
                     </Text>
                 </Stack>
                 <Stack spacing={4} direction={{ base: "column", md: "row" }} w={"full"}>
